@@ -55,6 +55,16 @@ layout: default
 
                 <!-- Friends Blog -->
                 {% include friends.html %}
+                 <!-- 热门文章 -->
+                 <hr>
+                 <h5>热门文章</h5>
+                 <ul class="list-inline">
+                     {% for page in site.hotpages %}
+                         <li>
+                           <a target="_blank" href="{{page.href }}">{{page.title}}</a>
+                         </li>
+                     {% endfor %}
+                 </ul>
     		</div>
         {% endif %}
 	</div>
