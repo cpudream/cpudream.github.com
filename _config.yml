@@ -98,8 +98,36 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
+hotpages: [
+    {
+        title: "Android 高级混淆技巧总结    ",
+        href:  "https://liucoder.com/2019/05/08/proguard/"
+    }, {
+        title: "Android Bitmap加载与压缩优化",
+        href:  "https://liucoder.com/2018/04/01/bitmap-optimalize/"
 
+    },{
+        title: "NDK快速入门",
+        href:  "https://liucoder.com/2017/06/27/ndk-guide/"
+    },{
+      title: "Windows下安装Jekyll",
+      href:  "https://liucoder.com/2015/01/02/build-jekyll/"
+    },{
+        title: "如何自学 Android   ",
+        href:  "http://gityuan.com/2016/04/24/how-to-study-android/"
+    }
+]
 
 # Friends
 friends: [
+  {
+        title: "当然我在扯淡",
+        href: "http://www.yinwang.org/"
+    },{
+        title: "阮一峰的网络日志",
+        href: "http://www.ruanyifeng.com/blog/"
+    },{
+        title: "Hux Blog",
+        href: "https://huangxuan.me/"
+    }
 ]
