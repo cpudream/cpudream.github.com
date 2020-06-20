@@ -1,11 +1,11 @@
 # Site settings
-title: 
-SEOTitle: 
+title: The DEV Liucoder.
+SEOTitle: 刘玉峰的博客 | Liucoder Blog
 header-img: 
-email: 
+email: liuyufengch@gmail.com
 description: 
 keyword: 
-url: 
+url: "https://liucoder.com"
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     
-zhihu_username:     
-github_username:    
-twitter_username:   
+weibo_username:     cpudream
+zhihu_username:     cpudream
+github_username:    cpudream
+twitter_username:   cpudream
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: liucoder
 
 # Netease settings
 netease_comment: false
@@ -79,7 +79,7 @@ ga_domain:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: 
-sidebar-avatar:    # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpg   # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
