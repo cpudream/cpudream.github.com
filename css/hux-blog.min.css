@@ -505,7 +505,7 @@ pre.highlight {
 }
 .highlighter-rouge .highlight {
   margin-bottom: 10px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 .highlighter-rouge .highlight pre {
   font-size: 14px;
@@ -740,6 +740,8 @@ pre code {
   width: auto;
   white-space: pre;
   word-wrap: normal;
+  background-color: #f8f8f8;
+  padding: 16px
 }
 code,
 kbd,
