@@ -1,13 +1,33 @@
-_site
-_posts/_draft
-_posts/_archive
-_archive
-node_modules
-.vscode
-*.log
-*.lock
-*.sh
-.DS_Store
+# Specific
+.idea/
+blog-gen/_drafts/
+
+# Jekyll
+_site/
 .jekyll-cache
-*/.DS_Store
-*/*/.DS_Store
+.jekyll-metadata
+.sass-cache
+
+# Ruby
+.bundle/
+.byebug_history
+.ruby-gemset
+.ruby-version
+*.gem
+Gemfile.lock
+
+# Files
+.analysis
+.DS_Store
+*.swp
+*~
+
+# Folders
+/vendor
+bbin/
+bin/
+coverage
+gh-pages/
+pkg/
+test/dest
+tmp/*
