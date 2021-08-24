@@ -1,0 +1,13 @@
+根据多个客户反馈一直转圈无法正常运行，主要问题在于默认路径指定错误，查找文件 
+ 
+libjs/main.min.js  （注意用notepad工具打开,编码格式是UTF-8） 
+ 
+（1）有个变量指定路径，查找Data.DomainUrl=能找到 
+ 
+Data.DomainUrl="http://localhost/tyt/" 这个要替换成所配置路径的URL访问目录 
+ 
+外网要换成外网的url,本机测试用http://localhost开头 
+ 
+（2）查找 tyt/ 可以找到 this._imgUrl="http://localhost/tyt/head.png 这个也要相应更改 
+ 
+（3）game目录下的php文件全部是接口文件，提供后台对接的范本
