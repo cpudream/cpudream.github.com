@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'NotCourierSans';
+    src: url('NotCourierSans.eot');
+    src: url('NotCourierSans.eot') format('embedded-opentype'),
+         url('NotCourierSans.woff2') format('woff2'),
+         url('NotCourierSans.woff') format('woff'),
+         url('NotCourierSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NotCourierSansBold';
+    src: url('NotCourierSansBold.eot');
+    src: url('NotCourierSansBold.eot') format('embedded-opentype'),
+         url('NotCourierSansBold.woff2') format('woff2'),
+         url('NotCourierSansBold.woff') format('woff'),
+         url('NotCourierSansBold.ttf') format('truetype');
+}
